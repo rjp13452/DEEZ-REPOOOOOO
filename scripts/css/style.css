@@ -4,8 +4,8 @@
     border: 2px solid #000000;
     border-radius: 5px;
     background-color: #636363;
-    width: 1050px;
-    height: 60px;
+    width: 98%;
+    height: 80px;
     box-shadow: 10px 10px 5px;
 }
 #div2{
@@ -25,6 +25,9 @@
     background-color: #636363;
     width: 783px;
     height: 600px;
+}
+#td1{
+    
 }
 #p1{
     font-size: 25px;
