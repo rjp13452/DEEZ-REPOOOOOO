@@ -1,0 +1,41 @@
+#div1{
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #636363;
+    box-shadow: 10px 10px 5px;
+}
+#div2{
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #636363;
+    height: 100%;
+}
+#div3{
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #636363;
+    height: 100%;
+}
+#table-frame{
+    width: 100%;
+    padding: 15px;
+    height: 100%;
+}
+#tr-all{
+    vertical-align: top;
+}
+#td1{
+    width: 100%;
+}
+#td2{
+    width: 20%;
+    height: 100%;
+}
+#td3{
+    width: 80%;
+    height: 100%;
+}
+#p1{
+    font-size: 25px;
+    margin-top: 15px;
+}
