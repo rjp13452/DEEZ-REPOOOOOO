@@ -9,26 +9,34 @@
     box-shadow: 10px 10px 5px;
 }
 #div2{
-    margin-left:5px;
-    margin-top: 15px;
     border: 2px solid #000000;
     border-radius: 5px;
     background-color: #636363;
-    width: 250px;
-    height: 600%;
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 10px 5px;
 }
 
 #div3{
-    margin-left: 8px;
-    margin-top: 15px;
+    margin-left: 1%;
     border: 2px solid #000000;
     border-radius: 5px;
     background-color: #636363;
-    width: 4000%;
-    height: 600%;
+    width: 99%;
+    height: 100%;
+    box-shadow: 10px 10px 5px;
+}
+#table1{
+    width: 98%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 #td1{
-    
+    width: 12%;
+}
+#td2{
+    width: 88%;
 }
 #p1{
     font-size: 25px;
