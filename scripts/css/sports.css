@@ -11,6 +11,7 @@ body{
     height: 8%;
     margin-left:auto;
     margin-right: auto;
+    color: rgb(255, 251, 0);
 }
 #div2{
     border: 2px solid #000000;
@@ -20,9 +21,11 @@ body{
     box-shadow: 5px 5px 10px;
 }
 #div3{
+    margin-left: 1%;
     border: 2px solid #000000;
     border-radius: 5px;
     background-color: #636363;
+    width: 99%;
     height: 100%;
     box-shadow: 5px 5px 10px;
 }
@@ -31,12 +34,8 @@ body{
     padding: 15px;
     height: 100%;
 }
-#tr-all{
-    vertical-align: top;
-}
-#td1{
-    width: 100%;
-}
+
+
 #td2{
     width: 20%;
     height: 100%;
