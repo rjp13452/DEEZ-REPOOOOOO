@@ -4,7 +4,7 @@
     border: 2px solid #000000;
     border-radius: 5px;
     background-color: #636363;
-    width: 98%;
+    width: 50%;
     height: 8%;
     box-shadow: 10px 10px 5px;
 }
@@ -12,7 +12,7 @@
     border: 2px solid #000000;
     border-radius: 5px;
     background-image: url("/Images/potato.jpg");
-    width: 100%;
+    width: 50%;
     height: 10%;
     box-shadow: 10px 10px 5px;
     text-align: center;
@@ -26,7 +26,7 @@
     border: 2px solid #000000;
     border-radius: 5px;
     background-image: url("/Images/peppa.png");
-    width: 100%;
+    width: 50%;
     height: 10%;
     box-shadow: 10px 10px 5px;
     text-align: center;
