@@ -74,6 +74,8 @@ a.nav-link{
     height: 100%;
     width: 100%;
     margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 #table1{
     width: 98%;
@@ -121,13 +123,26 @@ a.nav-link{
     box-shadow: 5px 5px 10px;
     text-align: center;
     font-size: 20pt;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 #navdiv:hover{
     border: 2px solid #000000;
     border-radius: 5px;
     background-image: url("/Images/potato.jpg");
     width: 65%;
+    height: 10%;
+    box-shadow: 5px 5px 10px;
+    text-align: center;
+    font-size: 20pt;
+    margin-left: auto;
+    margin-right: auto;
+}
+#div69{
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-image: url("/Images/peppa.png");
+    width: 40%;
     height: 10%;
     box-shadow: 5px 5px 10px;
     text-align: center;
