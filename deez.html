@@ -23,43 +23,42 @@
                     <br><br>
                 </td>
                 <td id="td2">
-                    <div id="div3">
-                        <style>
-                            .mySlides {display:none; align: center;} 
-                        </style>
-                            <body>
-                            
-                            
-                            <div class="w3-content w3-display-container">
-                                <img class="mySlides" src="Images/peppa.png" style="width:500px" style="height:500px">
-                                <img class="mySlides" src="Images/og.jpg" style="width:500px" style="height:500px">
-                                <img class="mySlides" src="Images/potato_car.png" style="width:500px" style="height:500px">
-                                <img class="mySlides" src="Images/candleofdeez.png" style="width:500px" style="height:500px">
-                            
-                                <button id="left-button" onclick="plusDivs(-1)">&#10094;</button>
-                                <button id="right-button" onclick="plusDivs(1)">&#10095;</button>
-                            </div>
-                            
-                            <script>
-                            var slideIndex = 1;
-                            showDivs(slideIndex);
-                            
-                            function plusDivs(n) {
-                                showDivs(slideIndex += n);
+                    <style>
+                        .mySlides {display:none;} 
+                        
+                    </style>
+                        <body>
+                        
+                        
+                        <div id="slides" class="w3-content w3-display-container">
+                            <img class="mySlides" src="Images/peppa.png" style="width:500px" style="height:500px">
+                            <img class="mySlides" src="Images/og.jpg" style="width:500px" style="height:500px">
+                            <img class="mySlides" src="Images/potato_car.png" style="width:500px" style="height:500px">
+                            <img class="mySlides" src="Images/candleofdeez.png" style="width:500px" style="height:500px">
+                        
+                            <button id="left-button" onclick="plusDivs(-1)">&#10094;</button>
+                            <button id="right-button" onclick="plusDivs(1)">&#10095;</button>
+                        </div>
+                        
+                        <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+                        
+                        function plusDivs(n) {
+                            showDivs(slideIndex += n);
+                        }
+                        
+                        function showDivs(n) {
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            if (n > x.length) {slideIndex = 1}
+                            if (n < 1) {slideIndex = x.length}
+                            for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";  
                             }
-                            
-                            function showDivs(n) {
-                                var i;
-                                var x = document.getElementsByClassName("mySlides");
-                                if (n > x.length) {slideIndex = 1}
-                                if (n < 1) {slideIndex = x.length}
-                                for (i = 0; i < x.length; i++) {
-                                x[i].style.display = "none";  
-                                }
-                                x[slideIndex-1].style.display = "block";  
-                            }
-                            </script>
-                    </div>
+                            x[slideIndex-1].style.display = "block";  
+                        }
+                        </script>
                 </td>
             </tr>
         </table>
