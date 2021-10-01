@@ -77,6 +77,13 @@ a.nav-link{
     margin-left: auto;
     margin-right: auto;
 }
+#div5{
+    background-color: aquamarine;
+    border: 1px solid #000000;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
 #table1{
     width: 98%;
     height: 80%;
