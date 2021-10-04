@@ -77,9 +77,7 @@ a.nav-link{
     margin-left: auto;
     margin-right: auto;
 }
-#img1{
-    padding: 3%;
-}
+
 #div5{
     background-color: aquamarine;
     border: 1px solid #000000;
@@ -106,9 +104,8 @@ a.nav-link{
 }
 #p3{
     font-size: 35pt;
-    padding: 45px;
+    padding: 5%;
     margin-right: 25%;
-    margin-top: 5%;
 }
 #td6{
     width: 20%;
