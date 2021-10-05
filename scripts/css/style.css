@@ -77,7 +77,9 @@ a.nav-link{
     margin-right: auto;
 }
 #goat{
-    padding: 5%;
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-top: 10%;
 }
 #div5{
     background-color: aquamarine;
@@ -105,8 +107,8 @@ a.nav-link{
 }
 #p3{
     font-size: 35pt;
-    padding: 5%;
-    margin-right: 25%;
+    margin-left: 50%;
+    margin-right: 5%;
 }
 #td6{
     width: 20%;
