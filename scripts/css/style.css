@@ -16,7 +16,6 @@ body{
 a.nav-link{
     text-decoration: none;
     color: #000000;
-    
 }
 #div2{
     font-style: none;
@@ -29,7 +28,7 @@ a.nav-link{
     text-align: center;
     font-size: 20pt;
     margin: auto;
-    text-decoration: none;
+
 }
 #div2:hover{
     border: 2px solid #000000;
@@ -77,7 +76,9 @@ a.nav-link{
     margin-left: auto;
     margin-right: auto;
 }
-
+#goat{
+    padding: 5%;
+}
 #div5{
     background-color: aquamarine;
     border: 1px solid #000000;
@@ -134,6 +135,8 @@ a.nav-link{
     font-size: 20pt;
     margin-left: auto;
     margin-right: auto;
+    text-decoration: none;
+    color: #000000;
 }
 #navdiv:hover{
     border: 2px solid #000000;
@@ -146,6 +149,8 @@ a.nav-link{
     font-size: 20pt;
     margin-left: auto;
     margin-right: auto;
+    text-decoration: none;
+    color: #000000;
 }
 #div69{
     border: 2px solid #000000;
