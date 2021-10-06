@@ -174,3 +174,18 @@ a.nav-link{
     margin-top: -40%;
     margin-bottom: 15%;
 }
+#GTAVtxt{
+    margin: auto;
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 15px;
+    position: relative center;
+}
+#GTAV{
+    margin: auto;
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 350px;
+    position: relative center;
+}
